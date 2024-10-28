@@ -32,8 +32,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Anjana Nawarathne\'s Portfolio',
-  description: "Portfolio showcasing my skills and projects.",
+  title: "Anjana Nawarathne's Portfolio",
+  description: 'Portfolio showcasing my skills and projects.',
 };
 
 /**
@@ -57,7 +57,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Anjana Nawarathne.`,
+  name: "I'm Anjana Nawarathne.",
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -90,15 +90,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm an aspiring mental health advocate and technology enthusiast with a strong commitment to 
-  improving mental health awareness and services through innovative solutions.`,
+  description: "I'm an aspiring mental health advocate and technology enthusiast with a strong commitment to improving mental health awareness and services through innovative solutions.",
   aboutItems: [
-    { label: 'Location', text: 'Sri Lanka', Icon: MapIcon },
-    { label: 'Age', text: '25', Icon: CalendarIcon },
-    { label: 'Nationality', text: 'Sri Lankan', Icon: FlagIcon },
-    { label: 'Interests', text: 'Mental Health, Technology, Poetry', Icon: SparklesIcon },
-    { label: 'Study', text: 'University of Sri Jayawardenapura', Icon: AcademicCapIcon },
-    { label: 'Employment', text: 'IT Undergraduate', Icon: BuildingOffice2Icon },
+    {label: 'Location', text: 'Sri Lanka', Icon: MapIcon},
+    {label: 'Age', text: '25', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Sri Lankan', Icon: FlagIcon},
+    {label: 'Interests', text: 'Mental Health, Technology, Poetry', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Sri Jayawardenapura', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'IT Undergraduate', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -109,18 +108,16 @@ export const skills: SkillGroup[] = [
   {
     name: 'Languages',
     skills: [
-      { name: 'English', level: 10 },
-      { name: 'Sinhala', level: 9 },
-      // Add more languages if needed
+      {name: 'English', level: 10},
+      {name: 'Sinhala', level: 9},
     ],
   },
   {
     name: 'Technical Skills',
     skills: [
-      { name: 'Java', level: 8 },
-      { name: 'JavaScript', level: 7 },
-      { name: 'React', level: 6 },
-      // Add more skills if needed
+      {name: 'Java', level: 8},
+      {name: 'JavaScript', level: 7},
+      {name: 'React', level: 6},
     ],
   },
 ];
@@ -130,18 +127,17 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'AI-Powered Depression Relief and Theraputic app',
+    title: 'AI-Powered Depression Relief and Therapeutic App',
     description: 'AI-Based Emotional Support: A conversational AI chatbot capable of interacting in Sinhala, providing real-time emotional guidance, stress-relief advice, and empathy-driven support.',
     url: 'https://reactresume.com',
     image: porfolioImage1,
   },
   {
-    title: 'A marketplace for foreign sri lankan people',
-    description: 'Focum on the export and import industry, creating a website',
+    title: 'A marketplace for foreign Sri Lankan people',
+    description: 'Focus on the export and import industry, creating a website.',
     url: 'https://reactresume.com',
     image: porfolioImage2,
   },
-  // Add more portfolio items as needed
 ];
 
 /**
@@ -154,12 +150,11 @@ export const education: TimelineItem[] = [
     title: 'Bachelor of Science in Information Technology',
     content: <p>Studying various aspects of information technology and software development.</p>,
   },
-  // Add more education items as needed
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'July 2022 - Octomber 2022 ',
+    date: 'July 2022 - October 2022',
     location: 'Unique International College',
     title: 'Admin Support',
     content: (
@@ -168,7 +163,6 @@ export const experience: TimelineItem[] = [
       </p>
     ),
   },
-  // Add more experience items as needed
 ];
 
 /**
@@ -182,7 +176,6 @@ export const testimonial: TestimonialSection = {
       text: 'Anjana has been a great team member, always bringing creativity and passion to our projects.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
-    // Add more testimonials if needed
   ],
 };
 
@@ -220,6 +213,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/Anjanapramod' },
-  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/anjana-n-7b7347270' },
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Anjanapramod'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/anjana-n-7b7347270'},
 ];
